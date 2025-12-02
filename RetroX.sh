@@ -10,8 +10,8 @@ IFS=$'\n\t'
 # ==================== CONFIGURATION ====================
 TARGET_DOMAIN="${1:-}"
 BASE_OUTDIR="${2:-retrox_output}"
-TELEGRAM_BOT_TOKEN="${3:-8374819123:AAGbuVBUNIDT2NjE8YuTcCbwx_E0rIv58iY}"
-TELEGRAM_CHAT_ID="${4:-5895170660}"
+TELEGRAM_BOT_TOKEN="${3:-123456789:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa}"
+TELEGRAM_CHAT_ID="${4:-123456789}"
 
 # Interactive mode
 if [[ -z "$TARGET_DOMAIN" ]]; then
